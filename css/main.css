@@ -1,27 +1,23 @@
-.navbar{ background:#F97300;}
+.navbar{ background:rgb(114, 156, 247);}
 
 .nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
 
 .nav-link{ margin-right: 1em !important;}
 
-.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+.nav-link:hover{ background: rgb(114, 156, 247); color: rgb(0, 55, 175); }
 
 .navbar-collapse{ justify-content: flex-end;}
 
 .navbar-toggler{  background:#fff !important;}
 
-.bg-dark{
-    background-color:#343a40!important
-    }
-.bg-primary{
-    background-color:#007bff!important
-    }
+
 
 .header{
-    background-image: url('../images/snek.jpg');
+    background: url('../images/coffee.jpg') no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 50%;
     background-position: center;
+    color: black;
     
     }
 
@@ -31,5 +27,30 @@
         min-width: 100%;
         left: 0;
         top: 0;
-        background: rgba(244, 244, 244, 0.79);
+        background: rgba(244, 244, 244, 0.5);
        }
+
+       .description{
+        position: absolute;
+        top: 5%;
+        margin: auto;
+        padding: 1em;
+        text-align: center;
+        
+        
+        
+    }
+    .description h1{
+     color:rgb(39, 60, 116) ;
+    }
+    .description p{
+     color:rgb(0, 0, 0);
+     font-size: 20px;
+     width: 100%;
+     line-height: 1.5;
+    }
+    .description button{
+     border:1px  solid rgb(39, 60, 116);
+     background:rgb(39, 60, 116);
+     color:#fff;
+    }
